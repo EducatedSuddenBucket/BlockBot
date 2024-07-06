@@ -6,10 +6,10 @@ This project creates an AI-powered chat bot for Minecraft using Mineflayer and t
 
 1. Install Node.js if you haven't already.
 
-2. Clone this repository or create a new directory for your project.
+2. Clone this repository or download the index.js file
 
 3. Install the required dependencies:
-``` bash
+```bash
 npm install mineflayer axios
 ```
 
@@ -26,3 +26,10 @@ npm install mineflayer axios
   ```
 
 5. Run the bot:
+```bash
+node index.js
+```
+
+## Usage
+
+Once the bot is connected to your Minecraft server, it will respond to chat messages from players using AI-generated responses.
