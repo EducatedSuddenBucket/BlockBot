@@ -1,4 +1,4 @@
-# Minecraft AI Chat Bot
+# BlockBot
 
 This project creates an AI-powered chat bot for Minecraft using Mineflayer and the Together AI API.
 
