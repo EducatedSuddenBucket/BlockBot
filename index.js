@@ -47,7 +47,7 @@ bot.on('login', () => {
 });
 
 bot.on('chat', async (username, message) => {
-    if (username === bot.username) return; // Ignore the bot's own messages
+    if (username === bot.username) return; 
 
     const userPrompt = `${username} says: ${message}`;
     const aiResponse = await getAIResponse(userPrompt, SYSTEM_MESSAGE);
